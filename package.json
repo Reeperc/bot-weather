@@ -1,0 +1,30 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "A bot that provides real-time weather information for any city.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "discord.js": "^14.16.3",
+    "dotenv": "^8.6.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "weather",
+    "bot",
+    "city"
+  ],
+  "author": "Reeperc",
+  "license": "MIT"
+}
